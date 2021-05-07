@@ -1,0 +1,66 @@
+==>> if x >= 14 then
+<KEYWORD, if>, 1
+<ID, x>, 1
+<RELOP, >=>, 1
+<NUMBER, 14>, 1
+<KEYWORD, then>, 1
+
+==>> begin
+<KEYWORD, begin>, 2
+
+==>> x := x + 2 - 5 * 7 / 8 % 2
+
+<ID, x>, 3
+<ASSIGNOP, :=>, 3
+<PLUSMINUS, +>, 3
+<NUMBER, 2>, 3
+<PLUSMINUS, ->, 3
+<NUMBER, 5>, 3
+<MULDIV, *>, 3
+<NUMBER, 7>, 3
+<MULDIV, />, 3
+<NUMBER, 8>, 3
+<MOD, %>, 3
+<NUMBER, 2>, 3
+
+==>> end
+<KEYWORD, end>, 4
+
+=>>program HelloWorld(output);
+<KEYWORD, program>, 5
+<ID, HelloWorld>, 5
+<PAREN, (>, 5
+<ID, output>, 5
+<PAREN, )>, 5
+<SEMICOLON, ;>, 5
+
+=>>begin
+<KEYWORD, begin>, 6
+
+=>>var Num1, Num2, Sum : integer;
+<KEYWORD, Var>, 7
+<ID, Num1>, 7
+<COMMA, ,>, 7
+<ID, Num2>, 7
+<COMMA, ,>, 7
+<ID, Sum>, 7
+<COLON, :>, 7
+<KEYWORD, integer>, 7
+<SEMICOLON, ;>, 7
+
+=>>write("Hello, world!")
+<KEYWORD, write>, 8
+<PAREN, (>, 8
+<STRING, "Hello, world!">, 8
+<PAREN, )>, 8
+
+=>>{no ";" is required after the last statement of a block -adding one adds a "null statement" to the program;}
+<COMMENT, {no ";" is required after the last statement of a block -adding one adds a "null statement" to the program;}>, 9
+
+=>>end
+<KEYWORD, end>, 10
+
+
+
+
+

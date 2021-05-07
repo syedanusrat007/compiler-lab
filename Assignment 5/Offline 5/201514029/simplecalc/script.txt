@@ -1,0 +1,7 @@
+flex simplecalc.l
+
+bison -dy simplecalc.y
+
+g++ lex.yy.c y.tab.c -o simplecalc.exe
+
+simplecalc.exe

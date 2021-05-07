@@ -1,0 +1,14 @@
+flex -t sample.l  > sample.c
+g++ -c -o sample.o sample.c
+g++ sample.o -o samp.exe
+samp.exe
+
+flex -t first.l  > first.c
+g++ -c -o first.o first.c
+g++ first.o -o first.exe
+first.exe
+
+flex -t assingment3.l  > assingment3.c
+g++ -c -o assingment3.o assingment3.c
+g++ assingment3.o -o assingment3.exe
+assingment3.exe

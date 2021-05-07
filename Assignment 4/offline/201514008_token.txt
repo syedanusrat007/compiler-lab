@@ -1,0 +1,1 @@
+<STRING,"shams is a bad boy"><ID,bad><MULOP,*><ID,rubish><ID,string><CONST_CHAR,'a'><ID,c>

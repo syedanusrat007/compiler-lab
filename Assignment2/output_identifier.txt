@@ -1,0 +1,8 @@
+input 6
+count 7
+count1 7
+j 11
+check 13
+i 14
+flag 21
+k 22

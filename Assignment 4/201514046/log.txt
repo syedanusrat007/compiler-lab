@@ -1,0 +1,453 @@
+Line no 1: TOKEN <INT> Lexeme int found
+Line no 1: TOKEN <ID> Lexeme main found
+
+86 -->  < main,ID >
+Line no 1: TOKEN <PAREN> Lexeme ( found
+
+40 -->  < (,PAREN >
+86 -->  < (,PAREN >
+Line no 1: TOKEN <PAREN> Lexeme ) found
+
+40 -->  < ),PAREN >
+41 -->  < ),PAREN >
+86 -->  < ),PAREN >
+Line no 1: TOKEN <CURL> Lexeme { found
+
+22 -->  < {,CURL >
+40 -->  < {,CURL >
+41 -->  < {,CURL >
+86 -->  < {,CURL >
+Line no 2: TOKEN <INT> Lexeme int found
+Line no 2: TOKEN <ID> Lexeme x found
+
+19 -->  < x,ID >
+22 -->  < x,ID >
+40 -->  < x,ID >
+41 -->  < x,ID >
+86 -->  < x,ID >
+Line no 2: TOKEN <COMMA> Lexeme , found
+
+19 -->  < ,,COMMA >
+22 -->  < ,,COMMA >
+40 -->  < ,,COMMA >
+41 -->  < ,,COMMA >
+44 -->  < ,,COMMA >
+86 -->  < ,,COMMA >
+Line no 2: TOKEN <ID> Lexeme y found
+
+19 -->  < y,ID >
+20 -->  < y,ID >
+22 -->  < y,ID >
+40 -->  < y,ID >
+41 -->  < y,ID >
+44 -->  < y,ID >
+86 -->  < y,ID >
+Line no 2: TOKEN <SEMICOLON> Lexeme ; found
+
+19 -->  < ;,SEMICOLON >
+20 -->  < ;,SEMICOLON >
+22 -->  < ;,SEMICOLON >
+40 -->  < ;,SEMICOLON >
+41 -->  < ;,SEMICOLON >
+44 -->  < ;,SEMICOLON >
+59 -->  < ;,SEMICOLON >
+86 -->  < ;,SEMICOLON >
+Line no 3: TOKEN <CHAR> Lexeme char found
+Line no 3: TOKEN <ID> Lexeme c found
+
+19 -->  < c,ID >
+20 -->  < c,ID >
+22 -->  < c,ID >
+40 -->  < c,ID >
+41 -->  < c,ID >
+44 -->  < c,ID >
+59 -->  < c,ID >
+86 -->  < c,ID >
+99 -->  < c,ID >
+Line no 3: TOKEN <SEMICOLON> Lexeme ; found
+
+ already exists.
+
+Line no 4: TOKEN <CHAR> Lexeme char found
+Line no 4: TOKEN <ID> Lexeme d found
+
+19 -->  < d,ID >
+20 -->  < d,ID >
+22 -->  < d,ID >
+40 -->  < d,ID >
+41 -->  < d,ID >
+44 -->  < d,ID >
+59 -->  < d,ID >
+86 -->  < d,ID >
+99 -->  < d,ID >
+100 -->  < d,ID >
+Line no 4: TOKEN <BRACKET> Lexeme [ found
+
+19 -->  < [,BRACKET >
+20 -->  < [,BRACKET >
+22 -->  < [,BRACKET >
+40 -->  < [,BRACKET >
+41 -->  < [,BRACKET >
+44 -->  < [,BRACKET >
+59 -->  < [,BRACKET >
+86 -->  < [,BRACKET >
+91 -->  < [,BRACKET >
+99 -->  < [,BRACKET >
+100 -->  < [,BRACKET >
+Line no 4: TOKEN <CONST_INT> Lexeme 10 found
+19 -->  < 10,CONST_INT >
+20 -->  < 10,CONST_INT >
+22 -->  < 10,CONST_INT >
+40 -->  < 10,CONST_INT >
+41 -->  < 10,CONST_INT >
+44 -->  < 10,CONST_INT >
+59 -->  < 10,CONST_INT >
+86 -->  < 10,CONST_INT >
+91 -->  < 10,CONST_INT >
+92 -->  < 10,CONST_INT >
+99 -->  < 10,CONST_INT >
+100 -->  < 10,CONST_INT >
+Line no 4: TOKEN <BRACKET> Lexeme ] found
+
+19 -->  < ],BRACKET >
+20 -->  < ],BRACKET >
+22 -->  < ],BRACKET >
+40 -->  < ],BRACKET >
+41 -->  < ],BRACKET >
+44 -->  < ],BRACKET >
+59 -->  < ],BRACKET >
+86 -->  < ],BRACKET >
+91 -->  < ],BRACKET >
+92 -->  < ],BRACKET >
+93 -->  < ],BRACKET >
+99 -->  < ],BRACKET >
+100 -->  < ],BRACKET >
+Line no 4: TOKEN <ASSIGNOP> Lexeme = found
+19 -->  < =,ASSIGNOP >
+20 -->  < =,ASSIGNOP >
+22 -->  < =,ASSIGNOP >
+40 -->  < =,ASSIGNOP >
+41 -->  < =,ASSIGNOP >
+44 -->  < =,ASSIGNOP >
+59 -->  < =,ASSIGNOP >
+61 -->  < =,ASSIGNOP >
+86 -->  < =,ASSIGNOP >
+91 -->  < =,ASSIGNOP >
+92 -->  < =,ASSIGNOP >
+93 -->  < =,ASSIGNOP >
+99 -->  < =,ASSIGNOP >
+100 -->  < =,ASSIGNOP >
+Line no 4: TOKEN <STRING> Lexeme "abcd" found
+
+Line no 4: TOKEN <SEMICOLON> Lexeme ; found
+
+ already exists.
+
+Line no 5: TOKEN <CHAR> Lexeme char found
+Line no 5: TOKEN <ID> Lexeme e found
+
+0 -->  < e,ID >
+19 -->  < e,ID >
+20 -->  < e,ID >
+22 -->  < e,ID >
+40 -->  < e,ID >
+41 -->  < e,ID >
+44 -->  < e,ID >
+59 -->  < e,ID >
+61 -->  < e,ID >
+86 -->  < e,ID >
+91 -->  < e,ID >
+92 -->  < e,ID >
+93 -->  < e,ID >
+99 -->  < e,ID >
+100 -->  < e,ID >
+Line no 5: TOKEN <BRACKET> Lexeme [ found
+
+ already exists.
+
+Line no 5: TOKEN <CONST_INT> Lexeme 10 found
+ already exists.
+
+Line no 5: TOKEN <BRACKET> Lexeme ] found
+
+ already exists.
+
+Line no 5: TOKEN <ASSIGNOP> Lexeme = found
+ already exists.
+
+Line no 5: TOKEN <STRING> Lexeme "ab\
+	cd\
+	ef" found
+
+Line no 5: TOKEN <SEMICOLON> Lexeme ; found
+
+ already exists.
+
+Line no 6: TOKEN <ID> Lexeme x found
+
+ already exists.
+
+Line no 6: TOKEN <ASSIGNOP> Lexeme = found
+ already exists.
+
+Line no 6: TOKEN <CONST_INT> Lexeme 10 found
+ already exists.
+
+Line no 6: TOKEN <SEMICOLON> Lexeme ; found
+
+ already exists.
+
+Line no 7: TOKEN <ID> Lexeme y found
+
+ already exists.
+
+Line no 7: TOKEN <ASSIGNOP> Lexeme = found
+ already exists.
+
+Line no 7: TOKEN <ID> Lexeme x found
+
+ already exists.
+
+Line no 7: TOKEN <MULOP> Lexeme * found
+42 -->  < *,MULOP >
+Line no 7: TOKEN <CONST_INT> Lexeme 10 found
+ already exists.
+
+Line no 7: TOKEN <MULOP> Lexeme % found
+37 -->  < %,MULOP >
+Line no 7: TOKEN <CONST_INT> Lexeme 2 found
+0 -->  < 2,CONST_INT >
+19 -->  < 2,CONST_INT >
+20 -->  < 2,CONST_INT >
+22 -->  < 2,CONST_INT >
+40 -->  < 2,CONST_INT >
+41 -->  < 2,CONST_INT >
+44 -->  < 2,CONST_INT >
+50 -->  < 2,CONST_INT >
+59 -->  < 2,CONST_INT >
+61 -->  < 2,CONST_INT >
+86 -->  < 2,CONST_INT >
+91 -->  < 2,CONST_INT >
+92 -->  < 2,CONST_INT >
+93 -->  < 2,CONST_INT >
+99 -->  < 2,CONST_INT >
+100 -->  < 2,CONST_INT >
+Line no 7: TOKEN <ADDOP> Lexeme + found
+43 -->  < +,ADDOP >
+Line no 7: TOKEN <CONST_INT> Lexeme 3 found
+0 -->  < 3,CONST_INT >
+19 -->  < 3,CONST_INT >
+20 -->  < 3,CONST_INT >
+22 -->  < 3,CONST_INT >
+40 -->  < 3,CONST_INT >
+41 -->  < 3,CONST_INT >
+44 -->  < 3,CONST_INT >
+50 -->  < 3,CONST_INT >
+51 -->  < 3,CONST_INT >
+59 -->  < 3,CONST_INT >
+61 -->  < 3,CONST_INT >
+86 -->  < 3,CONST_INT >
+91 -->  < 3,CONST_INT >
+92 -->  < 3,CONST_INT >
+93 -->  < 3,CONST_INT >
+99 -->  < 3,CONST_INT >
+100 -->  < 3,CONST_INT >
+Line no 7: TOKEN <SEMICOLON> Lexeme ; found
+
+ already exists.
+
+Line no 8: TOKEN <COMMENT> Lexeme //single line comment found
+
+Line no 11: TOKEN <COMMENT> Lexeme /****multi***
+	****line***
+	***comment***/ found
+
+Line no 12: TOKEN <IF> Lexeme if found
+Line no 12: TOKEN <PAREN> Lexeme ( found
+
+ already exists.
+
+Line no 12: TOKEN <ID> Lexeme y found
+
+ already exists.
+
+Line no 12: TOKEN <RELOP> Lexeme == found
+0 -->  < ==,RELOP >
+19 -->  < ==,RELOP >
+20 -->  < ==,RELOP >
+22 -->  < ==,RELOP >
+40 -->  < ==,RELOP >
+41 -->  < ==,RELOP >
+44 -->  < ==,RELOP >
+50 -->  < ==,RELOP >
+51 -->  < ==,RELOP >
+59 -->  < ==,RELOP >
+61 -->  < ==,RELOP >
+86 -->  < ==,RELOP >
+91 -->  < ==,RELOP >
+92 -->  < ==,RELOP >
+93 -->  < ==,RELOP >
+99 -->  < ==,RELOP >< ==,RELOP >
+100 -->  < ==,RELOP >
+Line no 12: TOKEN <CONST_INT> Lexeme 10 found
+ already exists.
+
+Line no 12: TOKEN <PAREN> Lexeme ) found
+
+ already exists.
+
+Line no 12: TOKEN <CURL> Lexeme { found
+
+ already exists.
+
+Line no 13: TOKEN <ID> Lexeme c found
+
+ already exists.
+
+Line no 13: TOKEN <ASSIGNOP> Lexeme = found
+ already exists.
+
+Line no 13: TOKEN <CONST_CHAR> Lexeme 'a' found
+
+0 -->  < 'a',CONST_CHAR >
+19 -->  < 'a',CONST_CHAR >
+20 -->  < 'a',CONST_CHAR >
+22 -->  < 'a',CONST_CHAR >
+40 -->  < 'a',CONST_CHAR >
+41 -->  < 'a',CONST_CHAR >
+44 -->  < 'a',CONST_CHAR >
+50 -->  < 'a',CONST_CHAR >
+51 -->  < 'a',CONST_CHAR >
+59 -->  < 'a',CONST_CHAR >
+61 -->  < 'a',CONST_CHAR >
+77 -->  < 'a',CONST_CHAR >
+86 -->  < 'a',CONST_CHAR >
+91 -->  < 'a',CONST_CHAR >
+92 -->  < 'a',CONST_CHAR >
+93 -->  < 'a',CONST_CHAR >
+99 -->  < 'a',CONST_CHAR >< 'a',CONST_CHAR >
+100 -->  < 'a',CONST_CHAR >
+Line no 13: TOKEN <SEMICOLON> Lexeme ; found
+
+ already exists.
+
+Line no 14: TOKEN <ID> Lexeme d found
+
+ already exists.
+
+Line no 14: TOKEN <BRACKET> Lexeme [ found
+
+ already exists.
+
+Line no 14: TOKEN <CONST_INT> Lexeme 3 found
+ already exists.
+
+Line no 14: TOKEN <BRACKET> Lexeme ] found
+
+ already exists.
+
+Line no 14: TOKEN <ASSIGNOP> Lexeme = found
+ already exists.
+
+Error at Line no 14: Multicharacter constant error for character sequence '\n' .
+
+Line no 14: TOKEN <SEMICOLON> Lexeme ; found
+
+ already exists.
+
+Line no 15: TOKEN <ID> Lexeme e found
+
+ already exists.
+
+Line no 15: TOKEN <BRACKET> Lexeme [ found
+
+ already exists.
+
+Line no 15: TOKEN <CONST_INT> Lexeme 4 found
+0 -->  < 4,CONST_INT >
+19 -->  < 4,CONST_INT >
+20 -->  < 4,CONST_INT >
+22 -->  < 4,CONST_INT >
+40 -->  < 4,CONST_INT >
+41 -->  < 4,CONST_INT >
+44 -->  < 4,CONST_INT >
+50 -->  < 4,CONST_INT >
+51 -->  < 4,CONST_INT >
+52 -->  < 4,CONST_INT >
+59 -->  < 4,CONST_INT >
+61 -->  < 4,CONST_INT >
+77 -->  < 4,CONST_INT >
+86 -->  < 4,CONST_INT >
+91 -->  < 4,CONST_INT >
+92 -->  < 4,CONST_INT >
+93 -->  < 4,CONST_INT >
+99 -->  < 4,CONST_INT >< 4,CONST_INT >
+100 -->  < 4,CONST_INT >
+Line no 15: TOKEN <BRACKET> Lexeme ] found
+
+ already exists.
+
+Line no 15: TOKEN <ASSIGNOP> Lexeme = found
+ already exists.
+
+Error at Line no 15: Multicharacter constant error for character sequence '\0' .
+
+Line no 15: TOKEN <SEMICOLON> Lexeme ; found
+
+ already exists.
+
+Line no 16: TOKEN <CURL> Lexeme } found
+
+0 -->  < },CURL >
+19 -->  < },CURL >
+20 -->  < },CURL >
+22 -->  < },CURL >
+24 -->  < },CURL >
+40 -->  < },CURL >
+41 -->  < },CURL >
+44 -->  < },CURL >
+50 -->  < },CURL >
+51 -->  < },CURL >
+52 -->  < },CURL >
+59 -->  < },CURL >
+61 -->  < },CURL >
+77 -->  < },CURL >
+86 -->  < },CURL >
+91 -->  < },CURL >
+92 -->  < },CURL >
+93 -->  < },CURL >
+99 -->  < },CURL >< },CURL >
+100 -->  < },CURL >
+Line no 17: TOKEN <RETURN> Lexeme return found
+Line no 17: TOKEN <CONST_INT> Lexeme 0 found
+0 -->  < 0,CONST_INT >
+19 -->  < 0,CONST_INT >
+20 -->  < 0,CONST_INT >
+22 -->  < 0,CONST_INT >
+24 -->  < 0,CONST_INT >
+40 -->  < 0,CONST_INT >
+41 -->  < 0,CONST_INT >
+44 -->  < 0,CONST_INT >
+48 -->  < 0,CONST_INT >
+50 -->  < 0,CONST_INT >
+51 -->  < 0,CONST_INT >
+52 -->  < 0,CONST_INT >
+59 -->  < 0,CONST_INT >
+61 -->  < 0,CONST_INT >
+77 -->  < 0,CONST_INT >
+86 -->  < 0,CONST_INT >
+91 -->  < 0,CONST_INT >
+92 -->  < 0,CONST_INT >
+93 -->  < 0,CONST_INT >
+99 -->  < 0,CONST_INT >< 0,CONST_INT >
+100 -->  < 0,CONST_INT >
+Line no 17: TOKEN <SEMICOLON> Lexeme ; found
+
+ already exists.
+
+Line no 18: TOKEN <CURL> Lexeme } found
+
+ already exists.
+
+Total number of line : 18 .
+Total number of error : 2 .

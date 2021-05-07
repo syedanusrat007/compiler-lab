@@ -1,0 +1,51 @@
+#include<iostream>	 -->error
+#include<cstring>	 -->error
+using	 --> identifier
+namespace	 --> identifier
+std;	 --> error
+int4
+main()4
+{	 -->operator
+char	 --> identifier
+input[100];	 --> error
+int7
+count=0,count1=0;	 --> error
+freopen("day1.txt",	 --> error
+"r",	 -->error
+stdin);	 --> error
+while	 --> identifier
+(gets(input))	 -->error
+{	 -->operator
+int11
+j=0;	 --> error
+char	 --> identifier
+check[100];	 --> error
+for(int	 --> error
+i=0;input[i]!=EOF;i++)	 --> error
+{	 -->operator
+if(input[i]=='	 --> error
+'||input[i]==','||input[i]==';')	 -->error
+{	 -->operator
+check[j]=NULL;	 --> error
+j=0;	 --> error
+printf("%s",check);	 --> error
+int21
+flag=0;	 --> error
+for(int	 --> error
+k=0;k<=5;k++)	 --> error
+{	 -->operator
+if(!(s[k].compare(check)))	 --> error
+{	 -->operator
+count++;	 --> error
+flag=1;	 --> error
+}	 -->operator
+}	 -->operator
+if(!flag)	 --> error
+{	 -->operator
+count1++;	 --> error
+}	 -->operator
+}	 -->operator
+else	 --> identifier
+{	 -->operator
+printf("%s",input);	 --> error
+check[j]=input[i];	 --> error

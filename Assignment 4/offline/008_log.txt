@@ -1,0 +1,2048 @@
+Line no 1: TOKEN <INT> Lexeme int found
+
+Line no 1: TOKEN <ID> Lexeme main found
+389 -><main,ID>
+
+
+Line no 1: TOKEN <LPAREN> Lexeme ( found
+40 -><(,LPAREN>
+389 -><main,ID>
+
+
+Line no 1: TOKEN <RPAREN> Lexeme ) found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+389 -><main,ID>
+
+
+Line no 1: TOKEN <LCURL> Lexeme { found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+123 -><{,LCURL>
+389 -><main,ID>
+
+
+Line no 2: TOKEN <INT> Lexeme int found
+
+Line no 2: TOKEN <ID> Lexeme x found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+120 -><x,ID>
+123 -><{,LCURL>
+389 -><main,ID>
+
+
+Line no 2: TOKEN <COMMA> Lexeme , found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+120 -><x,ID>
+123 -><{,LCURL>
+389 -><main,ID>
+
+
+Line no 2: TOKEN <ID> Lexeme y found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+389 -><main,ID>
+
+
+Line no 2: TOKEN <SEMICOLON> Lexeme ; found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+59 -><;,SEMICOLON>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+389 -><main,ID>
+
+
+Line no 4: TOKEN <INT> Lexeme int found
+
+Line no 4: TOKEN <SEMICOLON> Lexeme ; found
+<;,SEMICOLON> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+59 -><;,SEMICOLON>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+389 -><main,ID>
+
+
+Line no 5: TOKEN <INT> Lexeme int found
+
+Line no 5: TOKEN <ID> Lexeme a found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+59 -><;,SEMICOLON>
+97 -><a,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+389 -><main,ID>
+
+
+Line no 5: TOKEN <CONST_INT> Lexeme 9 found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+97 -><a,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+389 -><main,ID>
+
+
+Line no 5: TOKEN <SEMICOLON> Lexeme ; found
+<;,SEMICOLON> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+97 -><a,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+389 -><main,ID>
+
+
+Line no 6: TOKEN <CONST_INT> Lexeme 123 found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+95 -><123,CONST_INT>
+97 -><a,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+389 -><main,ID>
+
+
+Line no 7: TOKEN <CONST_INT> Lexeme 1 found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+95 -><123,CONST_INT>
+97 -><a,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+389 -><main,ID>
+
+
+Line no 8: TOKEN <CONST_INT> Lexeme 12 found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+90 -><12,CONST_INT>
+95 -><123,CONST_INT>
+97 -><a,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+389 -><main,ID>
+
+
+Line no 8: TOKEN <ID> Lexeme acd found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+90 -><12,CONST_INT>
+95 -><123,CONST_INT>
+97 -><a,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 9: TOKEN <ID> Lexeme ss found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+90 -><12,CONST_INT>
+95 -><123,CONST_INT>
+97 -><a,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 11: TOKEN <ID> Lexeme ss found
+<ss,ID> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+90 -><12,CONST_INT>
+95 -><123,CONST_INT>
+97 -><a,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 12: TOKEN <CHAR> Lexeme char found
+
+Line no 12: TOKEN <ID> Lexeme c found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+90 -><12,CONST_INT>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 12: TOKEN <SEMICOLON> Lexeme ; found
+<;,SEMICOLON> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+90 -><12,CONST_INT>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 13: TOKEN <CHAR> Lexeme char found
+
+Line no 13: TOKEN <ID> Lexeme d found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+90 -><12,CONST_INT>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 13: TOKEN <LBRACKET> Lexeme [ found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 13: TOKEN <CONST_INT> Lexeme 10 found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 13: TOKEN <RBRACKET> Lexeme ] found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 13: TOKEN <ASSIGNOP> Lexeme = found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 13: TOKEN <STRING> Lexeme "abcd" found
+Line no 13: TOKEN <SEMICOLON> Lexeme ; found
+<;,SEMICOLON> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 14: TOKEN <CHAR> Lexeme char found
+
+Line no 14: TOKEN <ID> Lexeme e found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 14: TOKEN <LBRACKET> Lexeme [ found
+<[,LBRACKET> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 14: TOKEN <CONST_INT> Lexeme 10 found
+<10,CONST_INT> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 14: TOKEN <RBRACKET> Lexeme ] found
+<],RBRACKET> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 14: TOKEN <ASSIGNOP> Lexeme = found
+<=,ASSIGNOP> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 14: TOKEN <MULTI_LINE_STRING> Lexeme "ab\
+	cd\
+	ef" found
+Line no 14: TOKEN <SEMICOLON> Lexeme ; found
+<;,SEMICOLON> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 15: TOKEN <ID> Lexeme x found
+<x,ID> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 15: TOKEN <ASSIGNOP> Lexeme = found
+<=,ASSIGNOP> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 15: TOKEN <CONST_INT> Lexeme 10 found
+<10,CONST_INT> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 15: TOKEN <SEMICOLON> Lexeme ; found
+<;,SEMICOLON> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 16: TOKEN <ID> Lexeme y found
+<y,ID> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 16: TOKEN <ASSIGNOP> Lexeme = found
+<=,ASSIGNOP> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 16: TOKEN <ID> Lexeme x found
+<x,ID> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 16: TOKEN <MULOP> Lexeme * found
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 16: TOKEN <CONST_INT> Lexeme 10 found
+<10,CONST_INT> already exits
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 16: TOKEN <MODOP> Lexeme % found
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 16: TOKEN <CONST_INT> Lexeme 2 found
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 16: TOKEN <ADDOP> Lexeme + found
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 16: TOKEN <CONST_INT> Lexeme 3 found
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 16: TOKEN <SEMICOLON> Lexeme ; found
+<;,SEMICOLON> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 17: TOKEN <COMMENT> Lexeme //single line comment found
+Line no 18: TOKEN <MULTI_LINE_COMMENT> Lexeme /****multi***
+	****line***
+	***comment***/ found
+Line no 20: TOKEN <DIVOP> Lexeme / found
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 20: TOKEN <MULOP> Lexeme * found
+<*,MULOP> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 21: TOKEN <ID> Lexeme zs found
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 22: TOKEN <MULOP> Lexeme * found
+<*,MULOP> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 23: TOKEN <IF> Lexeme if found
+
+Line no 23: TOKEN <LPAREN> Lexeme ( found
+<(,LPAREN> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 23: TOKEN <ID> Lexeme y found
+<y,ID> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 23: TOKEN <RELOP> Lexeme == found
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 23: TOKEN <CONST_INT> Lexeme 10 found
+<10,CONST_INT> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 23: TOKEN <RPAREN> Lexeme ) found
+<),RPAREN> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 23: TOKEN <LCURL> Lexeme { found
+<{,LCURL> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 24: TOKEN <ID> Lexeme c found
+<c,ID> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 24: TOKEN <ASSIGNOP> Lexeme = found
+<=,ASSIGNOP> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 24: TOKEN <ID> Lexeme ab found
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 24: TOKEN <SEMICOLON> Lexeme ; found
+<;,SEMICOLON> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 25: TOKEN <ID> Lexeme d found
+<d,ID> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 25: TOKEN <LBRACKET> Lexeme [ found
+<[,LBRACKET> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 25: TOKEN <CONST_INT> Lexeme 3 found
+<3,CONST_INT> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 25: TOKEN <RBRACKET> Lexeme ] found
+<],RBRACKET> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 25: TOKEN <ASSIGNOP> Lexeme = found
+<=,ASSIGNOP> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+389 -><main,ID>
+
+
+Line no 25: TOKEN <CONST_CHAR> Lexeme '\n' found
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+316 -><'\n',CONST_CHAR>
+389 -><main,ID>
+
+
+Line no 25: TOKEN <SEMICOLON> Lexeme ; found
+<;,SEMICOLON> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+316 -><'\n',CONST_CHAR>
+389 -><main,ID>
+
+
+Line no 26: TOKEN <ID> Lexeme e found
+<e,ID> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+316 -><'\n',CONST_CHAR>
+389 -><main,ID>
+
+
+Line no 26: TOKEN <LBRACKET> Lexeme [ found
+<[,LBRACKET> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+316 -><'\n',CONST_CHAR>
+389 -><main,ID>
+
+
+Line no 26: TOKEN <CONST_INT> Lexeme 4 found
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+52 -><4,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+316 -><'\n',CONST_CHAR>
+389 -><main,ID>
+
+
+Line no 26: TOKEN <RBRACKET> Lexeme ] found
+<],RBRACKET> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+52 -><4,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+316 -><'\n',CONST_CHAR>
+389 -><main,ID>
+
+
+Line no 26: TOKEN <ASSIGNOP> Lexeme = found
+<=,ASSIGNOP> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+52 -><4,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+299 -><acd,ID>
+316 -><'\n',CONST_CHAR>
+389 -><main,ID>
+
+
+Line no 26: TOKEN <CONST_CHAR> Lexeme '\0' found
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+52 -><4,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+234 -><'\0',CONST_CHAR>
+299 -><acd,ID>
+316 -><'\n',CONST_CHAR>
+389 -><main,ID>
+
+
+Line no 26: TOKEN <SEMICOLON> Lexeme ; found
+<;,SEMICOLON> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+52 -><4,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+234 -><'\0',CONST_CHAR>
+299 -><acd,ID>
+316 -><'\n',CONST_CHAR>
+389 -><main,ID>
+
+
+Line no 27: TOKEN <RCURL> Lexeme } found
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+52 -><4,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+125 -><},RCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+234 -><'\0',CONST_CHAR>
+299 -><acd,ID>
+316 -><'\n',CONST_CHAR>
+389 -><main,ID>
+
+
+Line no 28: TOKEN <RETURN> Lexeme return found
+
+Line no 28: TOKEN <CONST_INT> Lexeme 0 found
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+48 -><0,CONST_INT>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+52 -><4,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+125 -><},RCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+234 -><'\0',CONST_CHAR>
+299 -><acd,ID>
+316 -><'\n',CONST_CHAR>
+389 -><main,ID>
+
+
+Line no 28: TOKEN <SEMICOLON> Lexeme ; found
+<;,SEMICOLON> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+48 -><0,CONST_INT>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+52 -><4,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+125 -><},RCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+234 -><'\0',CONST_CHAR>
+299 -><acd,ID>
+316 -><'\n',CONST_CHAR>
+389 -><main,ID>
+
+
+Line no 29: TOKEN <RCURL> Lexeme } found
+<},RCURL> already exits
+37 -><%,MODOP>
+40 -><(,LPAREN>
+41 -><),RPAREN>
+42 -><*,MULOP>
+43 -><+,ADDOP>
+44 -><,,COMMA>
+47 -></,DIVOP>
+48 -><0,CONST_INT>
+49 -><1,CONST_INT>
+50 -><2,CONST_INT>
+51 -><3,CONST_INT>
+52 -><4,CONST_INT>
+57 -><9,CONST_INT>
+59 -><;,SEMICOLON>
+61 -><=,ASSIGNOP>
+90 -><12,CONST_INT>
+91 -><[,LBRACKET>
+92 -><10,CONST_INT>
+93 -><],RBRACKET>
+95 -><123,CONST_INT>
+97 -><a,ID>
+99 -><c,ID><==,RELOP>
+100 -><d,ID>
+101 -><e,ID>
+120 -><x,ID>
+121 -><y,ID>
+123 -><{,LCURL>
+125 -><},RCURL>
+218 -><ab,ID>
+219 -><ss,ID>
+226 -><zs,ID>
+234 -><'\0',CONST_CHAR>
+299 -><acd,ID>
+316 -><'\n',CONST_CHAR>
+389 -><main,ID>
+
+
+
+Total Lines: 29
+Total Errors: 0

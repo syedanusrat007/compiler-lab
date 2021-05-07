@@ -1,0 +1,18 @@
+/* this input contains error, you program should
+detect the errors given here */
+
+1..2.3
+1E10.7.8E1
+'ab'
+'a
+'
+'a
+"abc
+"abc\
+def\
+ff
+
+/*you are good, if you 
+are able to write 
+regular experssions for handling
+all these lexical errors by your own! 

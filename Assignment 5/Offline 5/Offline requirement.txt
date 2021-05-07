@@ -1,0 +1,21 @@
+Ref:
+Compilers by ULLMAN
+4.9 ==> 4.9.1 - 4.9.3: 
+
+Design a Simple calculator that can support the following operations:
+
+"+"  : plus operation: Example: 5 + 8 := 13
+"-"  : minus operation: Example: 5 - 8 := -3
+
+"++" : increment: Example: 3 + 6++ := 10 ; 3 + ++6 := 10
+"--" : decrement: Example: 3 + 6-- := 8 ; 3 + --6 := 8
+
+"<<" : LEFTSHIFT operation: Example: 6 << 2 := 24
+">>" : RIGHTSHIFT operation: Example: 6 >> 1 := 3
+"/"  : DIV operation: Example: 6 / 1 := 6 [note that 6 / 0 := Infinity, you have to handle this.]
+"*"  : MUL operation: Example: 6 * 2 := 12
+"%"  : MOD operation: Example: 6 % 10 := 6 [only on integer operands, otherwise handle the error]
+"**" : DOUBLESTERIK operation: Example: 6 ** 2 := 36
+
+[Note: 1.You also have to handle UNARY MINUS operation!!!!!. Example: 33 - -2:= 35
+	   2.You also have to handle UNARY PLUS operation!!!!!. Example: 33 - +2:= 31 ]

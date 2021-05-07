@@ -1,0 +1,12 @@
+input 14
+count 15
+count1 15
+j 19
+check 21
+i 22
+input 22
+i 22
+EOF 22
+i 22
+flag 29
+k 30

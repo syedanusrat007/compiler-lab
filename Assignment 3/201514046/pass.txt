@@ -1,0 +1,15 @@
+1.Expression 	
+(?!^[0-9]*$)(?!^[a-zA-Z]*$)^([a-zA-Z0-9]{6,15})$
+Description 	
+I built this expression to test a string in ASP for valid username and password constraints.
+ It can be adapted for any number of scenerios. For instance in this case, we needed to 
+ensure the username someone wanted was not all numbers or all letters and was 6-15 characters
+ in length with no special characters. This expression tests negatively for all number cases, 
+then all letter cases, and lastly tests for only alphanumeric characters in the required range.
+ In other words: the match must be alphanumeric with at least one number, one letter, and be between 6-15 character in length. 
+
+2. Expression 	
+(?!^[0-9]*$)(?!^[a-zA-Z]*$)^([a-zA-Z0-9]{8,10})$
+Description 	
+Validates a strong password. It must be between 8 and 10 characters, contain at least one digit and one alphabetic character, 
+and must not contain special characters

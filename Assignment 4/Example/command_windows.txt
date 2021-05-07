@@ -1,0 +1,10 @@
+flex -t scanner.l  > scanner.cpp
+g++ -c -o scanner.o scanner.cpp
+g++ scanner.o -o scanner.exe
+scanner.exe input1.txt
+
+flex -t mila.l  > mila.c
+g++ -c -o mila.o mila.c
+g++ mila.o -o mila.exe
+mila.exe input1.txt
+

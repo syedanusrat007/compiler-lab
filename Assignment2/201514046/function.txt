@@ -1,0 +1,13 @@
+5 . rr...Function 
+6 . main...Function 
+8 . rr...Function 
+16 . freopen...Function 
+17 . gets...Function 
+22 . for...Function 
+28 . printf...Function 
+30 . for...Function 
+32 . compare...Function 
+46 . printf...Function 
+50 . printf...Function 
+54 . printf...Function 
+55 . fclose...Function 

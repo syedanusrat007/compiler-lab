@@ -1,0 +1,11 @@
+flex simplecalc.l
+bison -dy simplecalc.y
+g++ lex.yy.c y.tab.c -o simplecalc.exe
+simplecalc.exe
+
+new 1
+
+flex new.l
+bison -dy new.y
+g++ lex.yy.c y.tab.c -o new.exe
+new.exe

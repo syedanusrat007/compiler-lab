@@ -1,0 +1,53 @@
+Error at line 1: Unfinished string "shams did bad
+
+Line no 2: TOKEN <STRING> Lexeme "shams is a bad boy" found
+Line no 3: TOKEN <COMMENT> Lexeme //what shams did found
+Line no 4: TOKEN <MULTI_LINE_COMMENT> Lexeme /*shams did bad*/ found
+Error at line 5: unfinished comment /*shams did very 
+
+Line no 5: TOKEN <ID> Lexeme bad found
+302 -><bad,ID>
+
+
+Line no 5: TOKEN <MULOP> Lexeme * found
+42 -><*,MULOP>
+302 -><bad,ID>
+
+
+Error at line 6: unfinished comment /*shams did 
+
+Line no 6: TOKEN <ID> Lexeme rubish found
+42 -><*,MULOP>
+134 -><rubish,ID>
+302 -><bad,ID>
+
+
+Line no 7: TOKEN <ID> Lexeme string found
+42 -><*,MULOP>
+76 -><string,ID>
+134 -><rubish,ID>
+302 -><bad,ID>
+
+
+Line no 9: TOKEN <CONST_CHAR> Lexeme 'a' found
+42 -><*,MULOP>
+76 -><string,ID>
+134 -><rubish,ID>
+178 -><'a',CONST_CHAR>
+302 -><bad,ID>
+
+
+Error at line 10: Multi character constant 'ab'
+
+Line no 11: TOKEN <ID> Lexeme c found
+42 -><*,MULOP>
+76 -><string,ID>
+99 -><c,ID>
+134 -><rubish,ID>
+178 -><'a',CONST_CHAR>
+302 -><bad,ID>
+
+
+
+Total Lines: 12
+Total Errors: 4

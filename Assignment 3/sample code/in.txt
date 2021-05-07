@@ -1,0 +1,11 @@
+if x >= 14 then
+	begin
+		x := x + 2 - 5 * 7 / 8 % 2
+	end
+program HelloWorld(output);
+begin
+  var Num1, Num2, Sum : integer;
+  write("Hello, world!")
+  {no ";" is required after the last statement of a block -adding one adds a "null statement" to the program;}
+end
+

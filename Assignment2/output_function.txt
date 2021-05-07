@@ -1,0 +1,9 @@
+main 4
+freopen 8
+gets 9
+printf 20
+compare 24
+printf 38
+printf 42
+printf 45
+fclose 46

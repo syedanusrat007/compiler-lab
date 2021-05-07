@@ -1,0 +1,13 @@
+Line no 4: TOKEN <CONST_INT> Lexeme 10 found
+Line no 5: TOKEN <CONST_INT> Lexeme 10 found
+Line no 8: TOKEN <CONST_INT> Lexeme 10 found
+Line no 9: TOKEN <CONST_INT> Lexeme 10 found
+Line no 9: TOKEN <CONST_INT> Lexeme 2 found
+Line no 9: TOKEN <ADDOP> Lexeme + found
+Line no 9: TOKEN <CONST_INT> Lexeme 3 found
+Line no 14: TOKEN <IF> Lexeme if found
+Line no 14: TOKEN <CONST_INT> Lexeme 10 found
+Line no 16: TOKEN <CONST_INT> Lexeme 3 found
+Line no 17: TOKEN <CONST_INT> Lexeme 4 found
+Line no 17: TOKEN <CONST_INT> Lexeme 0 found
+Line no 19: TOKEN <CONST_INT> Lexeme 0 found

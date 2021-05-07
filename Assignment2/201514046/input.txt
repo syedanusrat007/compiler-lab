@@ -1,0 +1,58 @@
+#include<iostream>
+#include<cstring>
+using namespace std;
+
+bool rr() {return 0};
+int main()
+{
+rr();
+     int x,y,z;
+     int max =x>y?x>z?x:z:y>z?y:z;
+cout<<"x>y?x>z?x:z:y>z?y:z";
+      char r =":";
+	char input[100] , char t, char *u;
+char s[2]= {'a','d'};
+	 int count=0,count1=0;
+	freopen("day1.txt", "r", stdin);
+	while (gets(input))
+	{
+		int j=0;
+		
+		char check[100];
+		for (int i=0;input[i]!=EOF;i++)
+		{
+			if(input[i]==' '||input[i]==','||input[i]==';')
+			{
+				check[j]=NULL;
+				j=0;
+				printf("%s",check);
+				int flag=0;
+				for(int k=0;k<=5;k++)
+				{
+					if(!(s[k].compare(check)))
+					{
+						count++;
+						flag=1;
+					}
+					
+				}
+				if(!flag)
+				{
+					count1++;
+				}
+			}
+			else
+			{
+				printf("%s",input);
+				check[j]=input[i];
+				j++;
+			}
+			printf("\n");
+break;
+		}
+	}
+	printf("Datatype: %d\nVariable: %d\n",count,count1);
+	fclose(stdin);
+
+	return 0;
+}

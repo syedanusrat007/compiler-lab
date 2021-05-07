@@ -1,0 +1,55 @@
+Line no 2: TOKEN <COMMENT> Lexeme /* this input contains error, you program should
+detect the errors given here */ found
+
+Error at Line no 4: Too many decimal points 1..2.3 .
+
+Error at Line no 5: Ill formed of number such as 1E10.7.8E1 .
+
+Error at Line no 6: Multicharacter constant error for character sequence 'ab' .
+
+Error at Line no 7: Unfinished character 'a
+ .
+
+Error at Line no 7: Unfinished character '
+ .
+
+Line no 7: TOKEN <ID> Lexeme abc found
+
+303 -->  < abc,ID >
+
+
+Line no 8: TOKEN <ID> Lexeme abc found
+
+already inserted.
+
+303 -->  < abc,ID >
+
+
+Line no 9: TOKEN <ID> Lexeme def found
+
+303 -->  < abc,ID >
+306 -->  < def,ID >
+
+
+Line no 10: TOKEN <ID> Lexeme ff found
+
+227 -->  < ff,ID >
+303 -->  < abc,ID >
+306 -->  < def,ID >
+
+
+Line no 12: TOKEN <ID> Lexeme xy found
+
+218 -->  < xy,ID >
+227 -->  < ff,ID >
+303 -->  < abc,ID >
+306 -->  < def,ID >
+
+
+Error at Line no 15: Unfinished comment /*you are good, if you 
+are able to write 
+regular experssions for handling
+all these lexical errors by your own!  .
+
+Total number of line : 15 .
+Total number of errors : 6 .

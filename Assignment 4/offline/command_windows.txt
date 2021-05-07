@@ -1,0 +1,93 @@
+flex -t shams.l  > scanner.cpp
+g++ -c -o scanner.o scanner.cpp
+g++ scanner.o -o scanner.exe
+scanner.exe input2.txt
+
+flex -t shams.l  > scanner.cpp
+g++ -c -o scanner.o scanner.cpp
+g++ scanner.o -o scanner.exe
+scanner.exe input1.txt
+
+flex -t shams.l  > scanner.cpp
+g++ -c -o scanner.o scanner.cpp
+g++ scanner.o -o scanner.exe
+scanner.exe inv.txt
+
+*********************
+
+flex -t shams2.l  > shams2.cpp
+g++ -c -o shams2.o shams2.cpp
+g++ shams2.o -o shams2.exe
+shams2.exe input1.txt
+
+
+flex -t shams2.l  > shams2.cpp
+g++ -c -o shams2.o shams2.cpp
+g++ shams2.o -o shams2.exe
+shams2.exe input2.txt
+
+
+flex -t shams2.l  > shams2.cpp
+g++ -c -o shams2.o shams2.cpp
+g++ shams2.o -o shams2.exe
+shams2.exe inv.txt
+
+
+**********************************
+flex -t mila.l  > shams2.cpp
+g++ -c -o shams2.o shams2.cpp
+g++ shams2.o -o shams2.exe
+shams2.exe input1.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{wrongid}			{fprintf(logout,"Error at line %d: Wrong ID %s\n\n",line_count,yytext);error_count++;}
+{toodec}			{fprintf(logout,"Error at line %d: Too many decimal point %s\n\n",line_count,yytext);error_count++;}
+{illno}			{fprintf(logout,"Error at line %d: Ill format of Number %s\n\n",line_count,yytext);error_count++;}
+{multichar}		{fprintf(logout,"Error at line %d: Multi character constant %s\n\n",line_count,yytext);error_count++;}
+{unfinisdchar}	{fprintf(logout,"Error at line %d: Unfinished character constant %s\n\n",line_count,yytext);error_count++;}
+{unfinisdstr}		{fprintf(logout,"Error at line %d: Unfinished string %s\n\n",line_count,yytext);error_count++;}
+{unfinisdmulstr}	{fprintf(logout,"Error at line %d: unfinished string %s\n\n",line_count,yytext);error_count++;}
+{unfinisdcmnt}	{fprintf(logout,"Error at line %d: unfinished comment %s\n\n",line_count,yytext);error_count++;}					
+
+
+({digits}|[^_A-Za-z])((_)*)?{LETTER}({LETTER}|{digits})*					{fprintf(logout,"Error at line %d: Wrong ID %s\n\n",line_count,yytext);error_count++;}
+{digits}(\.{digits}?)(\.{digits})+([eE][+-]?{digits})?						{fprintf(logout,"Error at line %d: Too many decimal point %s\n\n",line_count,yytext);error_count++;}
+{digits}(\.{digits})?([eE][+-]?{digits}(\.{digits})(\.{digits})*)? 			{fprintf(logout,"Error at line %d: Ill format of Number %s\n\n",line_count,yytext);error_count++;}
+'.*'				{fprintf(logout,"Error at line %d: Multi character constant %s\n\n",line_count,yytext);error_count++;}
+'.					{fprintf(logout,"Error at line %d: Unfinished character constant %s\n\n",line_count,yytext);error_count++;}
+(\".*)				{fprintf(logout,"Error at line %d: Unfinished string %s\n\n",line_count,yytext);error_count++;}
+["].*(\\[^"].*)*	{fprintf(logout,"Error at line %d: unfinished string %s\n\n",line_count,yytext);error_count++;}
+"/*"(.|\n)*			{fprintf(logout,"Error at line %d: unfinished comment %s\n\n",line_count,yytext);error_count++;}
+
+************************************
+
+["].*	{fprintf(logout,"Error at line %d: unfinished string %s\n\n",line_count,yytext);error_count++;}
+"/*"(.|\n)*			{fprintf(logout,"Error at line %d: unfinished comment %s\n\n",line_count,yytext);error_count++;}
+
+{digits}(\.{digits})?([eE][+-]?{digits}(\.{digits})(\.{digits})*)? 			{fprintf(logout,"Error at line %d: Ill format of Number %s\n\n",line_count,yytext);error_count++;}
+
+{digits}(\.{digits}?)(\.{digits})+([eE][+-]?{digits})?						{fprintf(logout,"Error at line %d: Too many decimal point %s\n\n",line_count,yytext);error_count++;}	
+
+'.*'				{fprintf(logout,"Error at line %d: Multi character constant %s\n\n",line_count,yytext);error_count++;}
+
+
+'.					{fprintf(logout,"Error at line %d: Unfinished character constant %s\n\n",line_count,yytext);error_count++;}
+
+
+{digits}((_)*)?{LETTER}({LETTER}|{digits})*					{fprintf(logout,"Error at line %d: Wrong ID %s\n\n",line_count,yytext);error_count++;}
